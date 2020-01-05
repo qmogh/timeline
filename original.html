@@ -9,41 +9,5 @@
     <h1> Timeline.</h1>
     <h2> A Visual History Of <font color="red">Our Effect On The Planet.</font></h2>
   </div>
-  <script>
-  window.onload = function () {
-
-    var chart = new CanvasJS.Chart("chartContainer", {
-      animationEnabled: true,
-      theme: "dark2",
-      title:{
-        text: "Who's Behind The Emissions"
-      },
-      axisY: {
-        title: "CO2 eq. Emissions (ppb)"
-      },
-      data: [{
-        type: "column",
-        showInLegend: true,
-        legendText: "Based on a 2011 UMass Amherst Study",
-        dataPoints: [
-          { y: 59.2, label: "Saudi Aramco" },
-          { y: 43.35,  label: "Chevron" },
-          { y: 43.23,  label: "Gazprom" },
-          { y: 41.90,  label: "Exxon Mobile" },
-          { y: 35.66,  label: "National Iranian Oil Co" },
-          { y: 34.02, label: "BP" },
-          { y: 31.95,  label: "Royal Dutch Shell" },
-          { y: 23.12,  label: "Coal India" },
-          { y: 22.65,  label: "Pemex" },
-          { y: 15.75,  label: "Petróleos de Venezuela " },
-        ]
-      }]
-    });
-    chart.render();
-
-  }
-</script>
-<div id="chartContainer" style="height: 300px; width: 50%;"></div>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>
 </html>
