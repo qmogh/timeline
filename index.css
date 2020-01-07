@@ -7,6 +7,10 @@ body {
  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+#base {
+  font-size: 10px
+}
+
 #title {
   text-align: center;
 }
