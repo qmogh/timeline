@@ -19,9 +19,17 @@ body {
   margin: auto;
 }
 
-#learn {
-  text-align: center;
+#one {
+  margin-right: 1200px;
   margin-top: 700px;
+}
+
+#one2 {
+  margin-right: 400px;
+}
+
+#two {
+  margin-right: 1200px;
 }
 
 .chartContainer {
