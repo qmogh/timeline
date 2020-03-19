@@ -15,27 +15,23 @@ body {
   text-align: center;
 }
 
-#graph {
-  margin: auto;
-}
 
 #one {
-  margin-right: 1200px;
+  margin-right: 1000px;
   margin-top: 700px;
 }
 
 #one2 {
-  margin-right: 400px;
+  margin-right: 600px;
 }
 
 #two {
-  margin-right: 1200px;
+  margin-right: 1000px;
 }
 
-.chartContainer {
-  text-align: right;
+#two2 {
+  margin-right: 600px;
 }
-
 
 .earth {
   width: 300px;
@@ -67,8 +63,6 @@ body {
   height: 100%;
   animation: spin 30s linear alternate infinite;
   background: url(https://web.opendrive.com/api/v1/download/file.json/NTlfMTQ1MTkzNDhf?inline=1);
-  /*orginal image at https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Earthmap1000x500compac.jpg/640px-Earthmap1000x500compac.jpg
-  https://web.opendrive.com/api/v1/download/file.json/NTlfMTQ1MTkzNDhf?inline=1*/
   background-size: cover;
 }
 @keyframes spin {
