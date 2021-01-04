@@ -118,6 +118,11 @@ body {
   border-radius: 6px;
 }
 
+#ice {
+  height: 300px;
+  width: 400px;
+}
+
 .content-red {
   padding: 20px 30px;
   background-color: white;
