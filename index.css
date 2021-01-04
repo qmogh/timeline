@@ -26,14 +26,13 @@ body {
 }
 
 
-/* The actual timeline (the vertical ruler) */
+/* the actual timeline like the big white line*/
 .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: '';
   position: absolute;
@@ -144,7 +143,7 @@ body {
     left: 31px;
   }
 
-/* Full-width containers */
+/* DA WHITE SQUARES */
   .container {
     width: 100%;
     padding-left: 70px;
@@ -164,7 +163,7 @@ body {
     left: 15px;
   }
 
-/* Make all right containers behave like the left ones */
+/* right containers: don't be ugly??? */
   .right {
     left: 0%;
   }
